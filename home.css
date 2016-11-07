@@ -1,4 +1,11 @@
 #title {
-  border: 10px black solid;
-  
+  border: 10px ghostwhite solid;
+  border-radius: 50px;
+  text-align: center;
+  color: ghostWhite;
+  background-color: black;
+}
+
+body {
+  background-color: 
 }
