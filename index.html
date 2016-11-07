@@ -52,7 +52,9 @@ var stringify = annoyingNumber.toString()
   databaseURL: "https://code-3423.firebaseio.com/"	
 };
 </pre>
-            <pre>var string = "&lt;script&gt; hack your stuff </pre>
+            <pre>var string = "&lt;script&gt; hack your stuff &lt;/script&gt;
+
+var noHax = string.leanerUser.replace(//g, "&lt;").replace(/>/g, "&gt;")</pre>
           </div>
         </div>
 
