@@ -11,11 +11,12 @@ body {
 }
 
 #Calbtn {
-  
+  background-color: red;
 }
 
 #Musbtn {
-  
+  background-color: pink;
+
 }
 
 #Dribtn {
@@ -40,4 +41,8 @@ body {
 
 #youbtn {
   
+}
+
+#spanbtn {
+
 }
