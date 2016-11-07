@@ -16,6 +16,7 @@ body {
 
 #Musbtn {
   background-color: deeppink;
+  color: black;
 
 }
 
@@ -35,18 +36,21 @@ body {
 }
 
 #clabtn {
-  background-color: gree;
+  background-color: darkgreen;
 
 }
 
 #chatbtn {
-  
+  background-color: goldenrod;
+
 }
 
 #youbtn {
-  
+  background-color: darkred;
+
 }
 
 #spanbtn {
+  background-color: darkblue;
 
 }
