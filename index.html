@@ -14,25 +14,25 @@
         <div class="row">
           <div class="col-xs-6">
             <h2 class="text-center">Description</h2>
-            <p>
+            <p class="desc">
               console.log() puts stuff in the console!!!!
             </p>
-            <p>
+            <p class="desc">
               funtions are code the can be called with things!!!
             </p>
-            <p>
+            <p class="desc">
               .toString() because integers suck!!!
             </p>
-            <p>
+            <p class="desc">
               jquery (.css) change css stuff in javascript!!!
             </p>
-            <p>
+            <p class="desc">
               FIREBASE THE GOD OF ALL GODS
             </p>
-            <p>
+            <p class="desc">
               Sanitization because people suck!!!
             </p>
-            <p>
+            <p class="desc">
               creating users
             </p>
           </div>
@@ -55,7 +55,28 @@ var stringify = annoyingNumber.toString()
             <pre>var string = "&lt;script&gt; hack your stuff &lt;/script&gt;
 
 var noHax = string.replace(/&lt;/g, "troll").replace(/&gt;/g, "troll")</pre>
-            <pre></pre>
+            <pre>create.click(function() {
+  var accountstyle = $("#color").val()
+  if (user.length &lt; 11) {
+  user = newUser.val();
+  }
+  else {
+    $("#toolong").css({display: "block"});
+  }
+  if (pass1.val() == pass2.val()) {
+    var newPass = pass1.val()
+  }
+    else {
+      $("#nomatch").css({display: "block"});
+    }
+  storeValue(user,newPass)
+  storeValue(newPass, accountstyle)
+  addListItem("listOfUsers",",/" + user)
+  pass1.val("")
+  pass2.val("")
+  newUser.val("")
+  $("#color").val("")
+})</pre>
           </div>
         </div>
 
