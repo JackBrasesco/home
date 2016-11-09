@@ -58,3 +58,7 @@ body {
 .row {
   display: block
 }
+
+.btns {
+  margin-top: 25
+}
